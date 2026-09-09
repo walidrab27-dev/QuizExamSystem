@@ -1,0 +1,367 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC19834-70C2-46A2-B6F1-F09D1BAF9BA3}|QuizExamSystem.Data\\QuizExamSystem.Data.csproj|c:\\programming\\c# diploma ccs\\part 7 - projects\\project 2_ oopandsql\\cairocodingschool.quizexamsystem\\quizexamsystem.data\\data\\databasemock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC19834-70C2-46A2-B6F1-F09D1BAF9BA3}|QuizExamSystem.Data\\QuizExamSystem.Data.csproj|solutionrelative:quizexamsystem.data\\data\\databasemock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B991568-22D1-AA4D-D5C7-54FD54404C55}|QuizExamSystem.ConsoleUI\\QuizExamSystem.ConsoleUI.csproj|c:\\programming\\c# diploma ccs\\part 7 - projects\\project 2_ oopandsql\\cairocodingschool.quizexamsystem\\quizexamsystem.consoleui\\ui\\studentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B991568-22D1-AA4D-D5C7-54FD54404C55}|QuizExamSystem.ConsoleUI\\QuizExamSystem.ConsoleUI.csproj|solutionrelative:quizexamsystem.consoleui\\ui\\studentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC19834-70C2-46A2-B6F1-F09D1BAF9BA3}|QuizExamSystem.Data\\QuizExamSystem.Data.csproj|c:\\programming\\c# diploma ccs\\part 7 - projects\\project 2_ oopandsql\\cairocodingschool.quizexamsystem\\quizexamsystem.data\\services\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC19834-70C2-46A2-B6F1-F09D1BAF9BA3}|QuizExamSystem.Data\\QuizExamSystem.Data.csproj|solutionrelative:quizexamsystem.data\\services\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC19834-70C2-46A2-B6F1-F09D1BAF9BA3}|QuizExamSystem.Data\\QuizExamSystem.Data.csproj|c:\\programming\\c# diploma ccs\\part 7 - projects\\project 2_ oopandsql\\cairocodingschool.quizexamsystem\\quizexamsystem.data\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC19834-70C2-46A2-B6F1-F09D1BAF9BA3}|QuizExamSystem.Data\\QuizExamSystem.Data.csproj|solutionrelative:quizexamsystem.data\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC19834-70C2-46A2-B6F1-F09D1BAF9BA3}|QuizExamSystem.Data\\QuizExamSystem.Data.csproj|c:\\programming\\c# diploma ccs\\part 7 - projects\\project 2_ oopandsql\\cairocodingschool.quizexamsystem\\quizexamsystem.data\\models\\studentquiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC19834-70C2-46A2-B6F1-F09D1BAF9BA3}|QuizExamSystem.Data\\QuizExamSystem.Data.csproj|solutionrelative:quizexamsystem.data\\models\\studentquiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B991568-22D1-AA4D-D5C7-54FD54404C55}|QuizExamSystem.ConsoleUI\\QuizExamSystem.ConsoleUI.csproj|c:\\programming\\c# diploma ccs\\part 7 - projects\\project 2_ oopandsql\\cairocodingschool.quizexamsystem\\quizexamsystem.consoleui\\ui\\studentmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B991568-22D1-AA4D-D5C7-54FD54404C55}|QuizExamSystem.ConsoleUI\\QuizExamSystem.ConsoleUI.csproj|solutionrelative:quizexamsystem.consoleui\\ui\\studentmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC19834-70C2-46A2-B6F1-F09D1BAF9BA3}|QuizExamSystem.Data\\QuizExamSystem.Data.csproj|c:\\programming\\c# diploma ccs\\part 7 - projects\\project 2_ oopandsql\\cairocodingschool.quizexamsystem\\quizexamsystem.data\\models\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC19834-70C2-46A2-B6F1-F09D1BAF9BA3}|QuizExamSystem.Data\\QuizExamSystem.Data.csproj|solutionrelative:quizexamsystem.data\\models\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B991568-22D1-AA4D-D5C7-54FD54404C55}|QuizExamSystem.ConsoleUI\\QuizExamSystem.ConsoleUI.csproj|c:\\programming\\c# diploma ccs\\part 7 - projects\\project 2_ oopandsql\\cairocodingschool.quizexamsystem\\quizexamsystem.consoleui\\ui\\adminmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B991568-22D1-AA4D-D5C7-54FD54404C55}|QuizExamSystem.ConsoleUI\\QuizExamSystem.ConsoleUI.csproj|solutionrelative:quizexamsystem.consoleui\\ui\\adminmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B991568-22D1-AA4D-D5C7-54FD54404C55}|QuizExamSystem.ConsoleUI\\QuizExamSystem.ConsoleUI.csproj|c:\\programming\\c# diploma ccs\\part 7 - projects\\project 2_ oopandsql\\cairocodingschool.quizexamsystem\\quizexamsystem.consoleui\\ui\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B991568-22D1-AA4D-D5C7-54FD54404C55}|QuizExamSystem.ConsoleUI\\QuizExamSystem.ConsoleUI.csproj|solutionrelative:quizexamsystem.consoleui\\ui\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B991568-22D1-AA4D-D5C7-54FD54404C55}|QuizExamSystem.ConsoleUI\\QuizExamSystem.ConsoleUI.csproj|c:\\programming\\c# diploma ccs\\part 7 - projects\\project 2_ oopandsql\\cairocodingschool.quizexamsystem\\quizexamsystem.consoleui\\ui\\teachermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B991568-22D1-AA4D-D5C7-54FD54404C55}|QuizExamSystem.ConsoleUI\\QuizExamSystem.ConsoleUI.csproj|solutionrelative:quizexamsystem.consoleui\\ui\\teachermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B991568-22D1-AA4D-D5C7-54FD54404C55}|QuizExamSystem.ConsoleUI\\QuizExamSystem.ConsoleUI.csproj|c:\\programming\\c# diploma ccs\\part 7 - projects\\project 2_ oopandsql\\cairocodingschool.quizexamsystem\\quizexamsystem.consoleui\\ui\\teacherdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B991568-22D1-AA4D-D5C7-54FD54404C55}|QuizExamSystem.ConsoleUI\\QuizExamSystem.ConsoleUI.csproj|solutionrelative:quizexamsystem.consoleui\\ui\\teacherdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC19834-70C2-46A2-B6F1-F09D1BAF9BA3}|QuizExamSystem.Data\\QuizExamSystem.Data.csproj|c:\\programming\\c# diploma ccs\\part 7 - projects\\project 2_ oopandsql\\cairocodingschool.quizexamsystem\\quizexamsystem.data\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC19834-70C2-46A2-B6F1-F09D1BAF9BA3}|QuizExamSystem.Data\\QuizExamSystem.Data.csproj|solutionrelative:quizexamsystem.data\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC19834-70C2-46A2-B6F1-F09D1BAF9BA3}|QuizExamSystem.Data\\QuizExamSystem.Data.csproj|c:\\programming\\c# diploma ccs\\part 7 - projects\\project 2_ oopandsql\\cairocodingschool.quizexamsystem\\quizexamsystem.data\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC19834-70C2-46A2-B6F1-F09D1BAF9BA3}|QuizExamSystem.Data\\QuizExamSystem.Data.csproj|solutionrelative:quizexamsystem.data\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC19834-70C2-46A2-B6F1-F09D1BAF9BA3}|QuizExamSystem.Data\\QuizExamSystem.Data.csproj|c:\\programming\\c# diploma ccs\\part 7 - projects\\project 2_ oopandsql\\cairocodingschool.quizexamsystem\\quizexamsystem.data\\models\\shortanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC19834-70C2-46A2-B6F1-F09D1BAF9BA3}|QuizExamSystem.Data\\QuizExamSystem.Data.csproj|solutionrelative:quizexamsystem.data\\models\\shortanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B991568-22D1-AA4D-D5C7-54FD54404C55}|QuizExamSystem.ConsoleUI\\QuizExamSystem.ConsoleUI.csproj|c:\\programming\\c# diploma ccs\\part 7 - projects\\project 2_ oopandsql\\cairocodingschool.quizexamsystem\\quizexamsystem.consoleui\\ui\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B991568-22D1-AA4D-D5C7-54FD54404C55}|QuizExamSystem.ConsoleUI\\QuizExamSystem.ConsoleUI.csproj|solutionrelative:quizexamsystem.consoleui\\ui\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC19834-70C2-46A2-B6F1-F09D1BAF9BA3}|QuizExamSystem.Data\\QuizExamSystem.Data.csproj|c:\\programming\\c# diploma ccs\\part 7 - projects\\project 2_ oopandsql\\cairocodingschool.quizexamsystem\\quizexamsystem.data\\enums\\coursecategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC19834-70C2-46A2-B6F1-F09D1BAF9BA3}|QuizExamSystem.Data\\QuizExamSystem.Data.csproj|solutionrelative:quizexamsystem.data\\enums\\coursecategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC19834-70C2-46A2-B6F1-F09D1BAF9BA3}|QuizExamSystem.Data\\QuizExamSystem.Data.csproj|c:\\programming\\c# diploma ccs\\part 7 - projects\\project 2_ oopandsql\\cairocodingschool.quizexamsystem\\quizexamsystem.data\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC19834-70C2-46A2-B6F1-F09D1BAF9BA3}|QuizExamSystem.Data\\QuizExamSystem.Data.csproj|solutionrelative:quizexamsystem.data\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B991568-22D1-AA4D-D5C7-54FD54404C55}|QuizExamSystem.ConsoleUI\\QuizExamSystem.ConsoleUI.csproj|c:\\programming\\c# diploma ccs\\part 7 - projects\\project 2_ oopandsql\\cairocodingschool.quizexamsystem\\quizexamsystem.consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B991568-22D1-AA4D-D5C7-54FD54404C55}|QuizExamSystem.ConsoleUI\\QuizExamSystem.ConsoleUI.csproj|solutionrelative:quizexamsystem.consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC19834-70C2-46A2-B6F1-F09D1BAF9BA3}|QuizExamSystem.Data\\QuizExamSystem.Data.csproj|c:\\programming\\c# diploma ccs\\part 7 - projects\\project 2_ oopandsql\\cairocodingschool.quizexamsystem\\quizexamsystem.data\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC19834-70C2-46A2-B6F1-F09D1BAF9BA3}|QuizExamSystem.Data\\QuizExamSystem.Data.csproj|solutionrelative:quizexamsystem.data\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC19834-70C2-46A2-B6F1-F09D1BAF9BA3}|QuizExamSystem.Data\\QuizExamSystem.Data.csproj|c:\\programming\\c# diploma ccs\\part 7 - projects\\project 2_ oopandsql\\cairocodingschool.quizexamsystem\\quizexamsystem.data\\models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC19834-70C2-46A2-B6F1-F09D1BAF9BA3}|QuizExamSystem.Data\\QuizExamSystem.Data.csproj|solutionrelative:quizexamsystem.data\\models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B991568-22D1-AA4D-D5C7-54FD54404C55}|QuizExamSystem.ConsoleUI\\QuizExamSystem.ConsoleUI.csproj|c:\\programming\\c# diploma ccs\\part 7 - projects\\project 2_ oopandsql\\cairocodingschool.quizexamsystem\\quizexamsystem.consoleui\\ui\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B991568-22D1-AA4D-D5C7-54FD54404C55}|QuizExamSystem.ConsoleUI\\QuizExamSystem.ConsoleUI.csproj|solutionrelative:quizexamsystem.consoleui\\ui\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentDashboard.cs",
+              "DocumentMoniker": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\UI\\StudentDashboard.cs",
+              "RelativeDocumentMoniker": "QuizExamSystem.ConsoleUI\\UI\\StudentDashboard.cs",
+              "ToolTip": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\UI\\StudentDashboard.cs",
+              "RelativeToolTip": "QuizExamSystem.ConsoleUI\\UI\\StudentDashboard.cs",
+              "ViewState": "AgIAAC0BAAAAAAAAAADgv0IBAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T08:59:40.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "QuizExamSystem.Data\\Services\\StudentService.cs",
+              "ToolTip": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\Services\\StudentService.cs",
+              "RelativeToolTip": "QuizExamSystem.Data\\Services\\StudentService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAE0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T06:30:47.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentMenu.cs",
+              "DocumentMoniker": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\UI\\StudentMenu.cs",
+              "RelativeDocumentMoniker": "QuizExamSystem.ConsoleUI\\UI\\StudentMenu.cs",
+              "ToolTip": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\UI\\StudentMenu.cs",
+              "RelativeToolTip": "QuizExamSystem.ConsoleUI\\UI\\StudentMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T08:57:46.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "QuizExamSystem.Data\\Models\\BaseEntity.cs",
+              "ToolTip": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "QuizExamSystem.Data\\Models\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T06:13:59.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminMenu.cs",
+              "DocumentMoniker": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\UI\\AdminMenu.cs",
+              "RelativeDocumentMoniker": "QuizExamSystem.ConsoleUI\\UI\\AdminMenu.cs",
+              "ToolTip": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\UI\\AdminMenu.cs",
+              "RelativeToolTip": "QuizExamSystem.ConsoleUI\\UI\\AdminMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T22:02:22.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TeacherService.cs",
+              "DocumentMoniker": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\Services\\TeacherService.cs",
+              "RelativeDocumentMoniker": "QuizExamSystem.Data\\Services\\TeacherService.cs",
+              "ToolTip": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\Services\\TeacherService.cs",
+              "RelativeToolTip": "QuizExamSystem.Data\\Services\\TeacherService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T11:56:20.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DatabaseMock.cs",
+              "DocumentMoniker": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\Data\\DatabaseMock.cs",
+              "RelativeDocumentMoniker": "QuizExamSystem.Data\\Data\\DatabaseMock.cs",
+              "ToolTip": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\Data\\DatabaseMock.cs",
+              "RelativeToolTip": "QuizExamSystem.Data\\Data\\DatabaseMock.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAwwB0AAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T22:23:51.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "QuizExamSystem.Data\\Models\\Course.cs",
+              "ToolTip": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\Models\\Course.cs",
+              "RelativeToolTip": "QuizExamSystem.Data\\Models\\Course.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAADwvz8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T07:47:56.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminDashboard.cs",
+              "DocumentMoniker": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\UI\\AdminDashboard.cs",
+              "RelativeDocumentMoniker": "QuizExamSystem.ConsoleUI\\UI\\AdminDashboard.cs",
+              "ToolTip": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\UI\\AdminDashboard.cs",
+              "RelativeToolTip": "QuizExamSystem.ConsoleUI\\UI\\AdminDashboard.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAMYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T22:50:31.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentQuiz.cs",
+              "DocumentMoniker": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\Models\\StudentQuiz.cs",
+              "RelativeDocumentMoniker": "QuizExamSystem.Data\\Models\\StudentQuiz.cs",
+              "ToolTip": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\Models\\StudentQuiz.cs",
+              "RelativeToolTip": "QuizExamSystem.Data\\Models\\StudentQuiz.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowDEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T14:46:39.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Answer.cs",
+              "DocumentMoniker": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\Models\\Answer.cs",
+              "RelativeDocumentMoniker": "QuizExamSystem.Data\\Models\\Answer.cs",
+              "ToolTip": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\Models\\Answer.cs",
+              "RelativeToolTip": "QuizExamSystem.Data\\Models\\Answer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T14:49:25.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TeacherDashboard.cs",
+              "DocumentMoniker": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\UI\\TeacherDashboard.cs",
+              "RelativeDocumentMoniker": "QuizExamSystem.ConsoleUI\\UI\\TeacherDashboard.cs",
+              "ToolTip": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\UI\\TeacherDashboard.cs",
+              "RelativeToolTip": "QuizExamSystem.ConsoleUI\\UI\\TeacherDashboard.cs",
+              "ViewState": "AgIAABwCAAAAAAAAAAAswDgCAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T05:12:12.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TeacherMenu.cs",
+              "DocumentMoniker": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\UI\\TeacherMenu.cs",
+              "RelativeDocumentMoniker": "QuizExamSystem.ConsoleUI\\UI\\TeacherMenu.cs",
+              "ToolTip": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\UI\\TeacherMenu.cs",
+              "RelativeToolTip": "QuizExamSystem.ConsoleUI\\UI\\TeacherMenu.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAgwHsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T05:01:00.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ShortAnswer.cs",
+              "DocumentMoniker": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\Models\\ShortAnswer.cs",
+              "RelativeDocumentMoniker": "QuizExamSystem.Data\\Models\\ShortAnswer.cs",
+              "ToolTip": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\Models\\ShortAnswer.cs",
+              "RelativeToolTip": "QuizExamSystem.Data\\Models\\ShortAnswer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T07:35:03.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\UI\\MainMenu.cs",
+              "RelativeDocumentMoniker": "QuizExamSystem.ConsoleUI\\UI\\MainMenu.cs",
+              "ToolTip": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\UI\\MainMenu.cs",
+              "RelativeToolTip": "QuizExamSystem.ConsoleUI\\UI\\MainMenu.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwCsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T20:56:50.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CourseCategories.cs",
+              "DocumentMoniker": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\Enums\\CourseCategories.cs",
+              "RelativeDocumentMoniker": "QuizExamSystem.Data\\Enums\\CourseCategories.cs",
+              "ToolTip": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\Enums\\CourseCategories.cs",
+              "RelativeToolTip": "QuizExamSystem.Data\\Enums\\CourseCategories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T05:26:51.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "QuizExamSystem.Data\\Services\\AdminService.cs",
+              "ToolTip": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\Services\\AdminService.cs",
+              "RelativeToolTip": "QuizExamSystem.Data\\Services\\AdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T22:21:17.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\Program.cs",
+              "RelativeDocumentMoniker": "QuizExamSystem.ConsoleUI\\Program.cs",
+              "ToolTip": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\Program.cs",
+              "RelativeToolTip": "QuizExamSystem.ConsoleUI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T20:59:34.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Quiz.cs",
+              "DocumentMoniker": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\Models\\Quiz.cs",
+              "RelativeDocumentMoniker": "QuizExamSystem.Data\\Models\\Quiz.cs",
+              "ToolTip": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\Models\\Quiz.cs",
+              "RelativeToolTip": "QuizExamSystem.Data\\Models\\Quiz.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T06:54:59.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "QuizExamSystem.Data\\Models\\Admin.cs",
+              "ToolTip": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\Models\\Admin.cs",
+              "RelativeToolTip": "QuizExamSystem.Data\\Models\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T22:18:48.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\UI\\Menu.cs",
+              "RelativeDocumentMoniker": "QuizExamSystem.ConsoleUI\\UI\\Menu.cs",
+              "ToolTip": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\UI\\Menu.cs",
+              "RelativeToolTip": "QuizExamSystem.ConsoleUI\\UI\\Menu.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T21:31:01.874Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

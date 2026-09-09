@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="QuizExamSystem.ConsoleUI/QuizExamSystem.ConsoleUI.csproj" />
+  <Project Path="QuizExamSystem.Data/QuizExamSystem.Data.csproj" />
+</Solution>

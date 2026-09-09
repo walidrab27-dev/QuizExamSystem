@@ -1,0 +1,11 @@
+C:\Programming\C# Diploma CCS\Part 7 - Projects\Project 2_ OOPAndSQL\CairoCodingSchool.QuizExamSystem\QuizExamSystem.Data\bin\Debug\net8.0\QuizExamSystem.Data.deps.json
+C:\Programming\C# Diploma CCS\Part 7 - Projects\Project 2_ OOPAndSQL\CairoCodingSchool.QuizExamSystem\QuizExamSystem.Data\bin\Debug\net8.0\QuizExamSystem.Data.dll
+C:\Programming\C# Diploma CCS\Part 7 - Projects\Project 2_ OOPAndSQL\CairoCodingSchool.QuizExamSystem\QuizExamSystem.Data\bin\Debug\net8.0\QuizExamSystem.Data.pdb
+C:\Programming\C# Diploma CCS\Part 7 - Projects\Project 2_ OOPAndSQL\CairoCodingSchool.QuizExamSystem\QuizExamSystem.Data\obj\Debug\net8.0\QuizExamSystem.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming\C# Diploma CCS\Part 7 - Projects\Project 2_ OOPAndSQL\CairoCodingSchool.QuizExamSystem\QuizExamSystem.Data\obj\Debug\net8.0\QuizExamSystem.Data.AssemblyInfoInputs.cache
+C:\Programming\C# Diploma CCS\Part 7 - Projects\Project 2_ OOPAndSQL\CairoCodingSchool.QuizExamSystem\QuizExamSystem.Data\obj\Debug\net8.0\QuizExamSystem.Data.AssemblyInfo.cs
+C:\Programming\C# Diploma CCS\Part 7 - Projects\Project 2_ OOPAndSQL\CairoCodingSchool.QuizExamSystem\QuizExamSystem.Data\obj\Debug\net8.0\QuizExamSystem.Data.csproj.CoreCompileInputs.cache
+C:\Programming\C# Diploma CCS\Part 7 - Projects\Project 2_ OOPAndSQL\CairoCodingSchool.QuizExamSystem\QuizExamSystem.Data\obj\Debug\net8.0\QuizExamSystem.Data.dll
+C:\Programming\C# Diploma CCS\Part 7 - Projects\Project 2_ OOPAndSQL\CairoCodingSchool.QuizExamSystem\QuizExamSystem.Data\obj\Debug\net8.0\refint\QuizExamSystem.Data.dll
+C:\Programming\C# Diploma CCS\Part 7 - Projects\Project 2_ OOPAndSQL\CairoCodingSchool.QuizExamSystem\QuizExamSystem.Data\obj\Debug\net8.0\QuizExamSystem.Data.pdb
+C:\Programming\C# Diploma CCS\Part 7 - Projects\Project 2_ OOPAndSQL\CairoCodingSchool.QuizExamSystem\QuizExamSystem.Data\obj\Debug\net8.0\ref\QuizExamSystem.Data.dll

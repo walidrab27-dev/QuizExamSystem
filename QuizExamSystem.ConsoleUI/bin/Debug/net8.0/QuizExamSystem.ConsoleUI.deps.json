@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "QuizExamSystem.ConsoleUI/1.0.0": {
+        "dependencies": {
+          "QuizExamSystem.Data": "1.0.0"
+        },
+        "runtime": {
+          "QuizExamSystem.ConsoleUI.dll": {}
+        }
+      },
+      "QuizExamSystem.Data/1.0.0": {
+        "runtime": {
+          "QuizExamSystem.Data.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "QuizExamSystem.ConsoleUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "QuizExamSystem.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

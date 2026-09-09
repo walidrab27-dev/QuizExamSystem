@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "QuizExamSystem.ConsoleUI": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
