@@ -16,3 +16,4 @@ C:\Programming\C# Diploma CCS\Part 7 - Projects\Project 2_ OOPAndSQL\CairoCoding
 C:\Programming\C# Diploma CCS\Part 7 - Projects\Project 2_ OOPAndSQL\CairoCodingSchool.QuizExamSystem\QuizExamSystem.ConsoleUI\obj\Debug\net8.0\QuizExamSystem.ConsoleUI.pdb
 C:\Programming\C# Diploma CCS\Part 7 - Projects\Project 2_ OOPAndSQL\CairoCodingSchool.QuizExamSystem\QuizExamSystem.ConsoleUI\obj\Debug\net8.0\QuizExamSystem.ConsoleUI.genruntimeconfig.cache
 C:\Programming\C# Diploma CCS\Part 7 - Projects\Project 2_ OOPAndSQL\CairoCodingSchool.QuizExamSystem\QuizExamSystem.ConsoleUI\obj\Debug\net8.0\ref\QuizExamSystem.ConsoleUI.dll
+C:\Programming\C# Diploma CCS\Part 7 - Projects\Project 2_ OOPAndSQL\CairoCodingSchool.QuizExamSystem\QuizExamSystem.ConsoleUI\obj\Debug\net8.0\QuizExamSystem.ConsoleUI.sourcelink.json

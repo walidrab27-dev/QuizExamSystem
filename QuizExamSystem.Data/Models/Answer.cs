@@ -20,26 +20,22 @@ namespace QuizExamSystem.Data.Models
                 _text = value;
             }
         }
-        private string _studentAnswer;
-        public string StudentAnswer
-        {
-            get => _studentAnswer;
-            set
-            {
-                if (string.IsNullOrEmpty(value))
-                    throw new ArgumentException("Answer text cannot be null or empty.", nameof(value));
-                _text = value;
-            }
-        }
         public bool IsCorrect
         {
             get => _isCorrect;  
             set => _isCorrect = value;
         }
-        public Answer(string text, bool isCorrect) : base()
+        private Question _question;
+        public Question Question
+        {
+            get => this._question;
+            set => this._question = value;
+        }
+        public Answer(string text, bool isCorrect, Question question) : base()
         {
             this.Text = text;
             this.IsCorrect = isCorrect;
+            this.Question = question;
         }
     }
 }

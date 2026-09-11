@@ -243,7 +243,7 @@ namespace QuizExamSystem.ConsoleUI.UI
 
                     for (var j = 0; j < _teacherService.GetAllQuizzes(this._teacher)[i].Questions.Count; j++)
                     {
-                        Console.WriteLine($"[{i + 1}]. {_teacherService.GetAllQuizzes(this._teacher)[i].Questions[j].Text} ?");
+                        Console.WriteLine($"[{j + 1}]. {_teacherService.GetAllQuizzes(this._teacher)[i].Questions[j].Text} ?");
                     }
                     Console.WriteLine();
                 }
@@ -363,18 +363,81 @@ namespace QuizExamSystem.ConsoleUI.UI
             {
                 Console.Clear();
                 var targetCourse = GetCourse(courseId);
-                _teacherService.CreateQuiz(name, duration, targetCourse, this._teacher);
+                var quiz = _teacherService.CreateQuiz(name, duration, targetCourse, this._teacher);
 
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Quiz Created Successfully!");
                 Console.ResetColor();
                 WaitForKeyPress();
+                Console.Clear();
+                AddQuestionToQuizNow(quiz);
             }
             catch (Exception ex)
             {
                 Console.Clear();
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine(ex.Message);
+                Console.ResetColor();
+                WaitForKeyPress();
+            }
+        }
+        private void AddQuestionToQuizNow(Quiz quiz)
+        {
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("\t\tAdd New Question\t\t\n");
+            Console.ResetColor();
+
+            Console.Write("Enter The Question: ");
+            string text = Console.ReadLine();
+            if (string.IsNullOrWhiteSpace(text))
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Invalid input! question cannot be empty.");
+                Console.ResetColor();
+                WaitForKeyPress();
+                return;
+            }
+            Console.WriteLine();
+
+            Console.Write("\nEnter Score: ");
+            if (!double.TryParse(Console.ReadLine(), out double score))
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Invalid input! Please enter a valid positive number.");
+                Console.ResetColor();
+                WaitForKeyPress();
+                return;
+            }
+            Console.WriteLine();
+
+            Console.Write("\nEnter QuestionType: ");
+            if (!Enum.TryParse<QuestionTypes>(Console.ReadLine(), true, out QuestionTypes type))
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Invalid Type! Please enter a valid category name.");
+                Console.ResetColor();
+                WaitForKeyPress();
+                return;
+            }
+            Console.WriteLine();
+
+            try
+            {
+                Console.Clear();
+                var question = _teacherService.AddQuestion(text, score, quiz, this._teacher, type);
+                AddAnswer(question);
+
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("\nQuestion Added Successfully!");
+                Console.ResetColor();
+                WaitForKeyPress();
+            }
+            catch (ArgumentException ex)
+            {
+                Console.Clear();
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine($"{ex.Message}");
                 Console.ResetColor();
                 WaitForKeyPress();
             }

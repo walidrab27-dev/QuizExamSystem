@@ -14,15 +14,13 @@ namespace QuizExamSystem.Data.Models
 
         public override double Evaluate(string answer)
         {
-            if (Answers.Count == 0)
-            {
-                throw new InvalidOperationException("This question has no configured answers.");
-            }
 
-            if (Answers[0].Text.Equals(answer, StringComparison.OrdinalIgnoreCase))
+            var correctAnswer = Answers.FirstOrDefault(a => a.IsCorrect == true);
+            if (correctAnswer != null && correctAnswer.Text.Equals(answer, StringComparison.OrdinalIgnoreCase))
             {
                 return Score;
             }
+
             return 0;
         }
     }

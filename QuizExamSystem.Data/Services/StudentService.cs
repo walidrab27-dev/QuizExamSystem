@@ -58,8 +58,6 @@ namespace QuizExamSystem.Data.Services
         public List<Course> GetEnrolledCourses(Student student)
         {
             var enrolledCourseList = new List<Course>();
-            if (student.Enrollments.Count == 0)
-                throw new ArgumentException("You didnt enroll in any course yet");
             foreach (var enrollment in student.Enrollments)
                 enrolledCourseList.Add(enrollment.Course);
             return enrolledCourseList;

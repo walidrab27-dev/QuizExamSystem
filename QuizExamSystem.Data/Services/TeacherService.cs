@@ -68,12 +68,13 @@ namespace QuizExamSystem.Data.Services
                     unAssigned.Add(course);
             return unAssigned;
         }
-        public void CreateQuiz(string name, TimeSpan duration, Course course, Teacher teacher)
+        public Quiz CreateQuiz(string name, TimeSpan duration, Course course, Teacher teacher)
         {
             var quiz = new Quiz(name, duration, course, teacher);
             DatabaseMock.Quizzes.Add(quiz);
             teacher.Quizzes.Add(quiz);
             course.Quizzes.Add(quiz);
+            return quiz;
         }
         public Question AddQuestion(string text, double score, Quiz quiz, Teacher teacher, QuestionTypes type)
         {
@@ -128,7 +129,7 @@ namespace QuizExamSystem.Data.Services
         }
         public void AddAnswerToQuestion(string text, bool isCorrect, Question question)
         {
-            var answer = new Answer(text, isCorrect);
+            var answer = new Answer(text, isCorrect, question);
             DatabaseMock.Answers.Add(answer);
             question.Answers.Add(answer);
             question.AddAnswer(answer);

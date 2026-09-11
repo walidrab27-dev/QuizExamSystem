@@ -9,3 +9,5 @@ C:\Programming\C# Diploma CCS\Part 7 - Projects\Project 2_ OOPAndSQL\CairoCoding
 C:\Programming\C# Diploma CCS\Part 7 - Projects\Project 2_ OOPAndSQL\CairoCodingSchool.QuizExamSystem\QuizExamSystem.Data\obj\Debug\net8.0\refint\QuizExamSystem.Data.dll
 C:\Programming\C# Diploma CCS\Part 7 - Projects\Project 2_ OOPAndSQL\CairoCodingSchool.QuizExamSystem\QuizExamSystem.Data\obj\Debug\net8.0\QuizExamSystem.Data.pdb
 C:\Programming\C# Diploma CCS\Part 7 - Projects\Project 2_ OOPAndSQL\CairoCodingSchool.QuizExamSystem\QuizExamSystem.Data\obj\Debug\net8.0\ref\QuizExamSystem.Data.dll
+C:\Programming\C# Diploma CCS\Part 7 - Projects\Project 2_ OOPAndSQL\CairoCodingSchool.QuizExamSystem\QuizExamSystem.Data\obj\Debug\net8.0\QuizExamSystem.Data.sourcelink.json
+C:\Programming\C# Diploma CCS\Part 7 - Projects\Project 2_ OOPAndSQL\CairoCodingSchool.QuizExamSystem\QuizExamSystem.Data\obj\Debug\net8.0\QuizExam.4AB63BC7.Up2Date

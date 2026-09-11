@@ -144,14 +144,14 @@ namespace QuizExamSystem.ConsoleUI.UI
                 Console.ResetColor();
                 Console.WriteLine();
 
-                if (course.Quizzes.Count==0)
+                if (course.Quizzes.Count == 0)
                 {
-                    Console.ForegroundColor= ConsoleColor.Yellow;
+                    Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine($"\t[!]this Course dosen't have quizzes yet.");
                     Console.ResetColor();
                 }
 
-                foreach(var quiz in course.Quizzes)
+                foreach (var quiz in course.Quizzes)
                 {
                     Console.WriteLine($"[{quiz.Id}]. {quiz.Name}");
                 }
@@ -204,7 +204,7 @@ namespace QuizExamSystem.ConsoleUI.UI
         {
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("\t\tMy Courses\t\t");
+            Console.WriteLine("\t\tMy Courses\t\t\n");
             Console.ResetColor();
 
             if (_studentService.GetEnrolledCourses(this._student).Count == 0)
@@ -215,27 +215,32 @@ namespace QuizExamSystem.ConsoleUI.UI
                 WaitForKeyPress();
                 return;
             }
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("\t\tMy COURSES\t\t");
-            Console.ResetColor();
-
+            Console.WriteLine();
             foreach (var course in _studentService.GetEnrolledCourses(this._student))
             {
-                Console.WriteLine($"\t\t{course.Id} {course.Name} Course\t\t");
+                Console.WriteLine($"\t\t[{course.Id}]. {course.Name} Course\t\t");
                 Console.WriteLine($"Teacher Name     : {course.Teacher.Name}");
                 Console.WriteLine($"Duration         : {course.Duration}");
                 Console.WriteLine($"Number of Lessons: {course.NumberLessons}");
                 Console.WriteLine($"Category         : {course.Category}");
                 Console.WriteLine($"Number of Quizzes : {course.Quizzes.Count}");
 
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("Quiz Names:");
+                Console.ResetColor();
+                Console.WriteLine();
 
-                foreach (var quiz in course.Quizzes)
+                if (course.Quizzes.Count == 0)
                 {
-                    Console.WriteLine($"\t• {quiz.Name}");
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("\t[!] this course does't have any quiz yet");
+                    Console.ResetColor();
+                }
+                for (var i = 0; i < course.Quizzes.Count; i++)
+                {
+                    Console.WriteLine($"\t[{i + 1}]. {course.Quizzes[i].Name}.");
                 }
 
-                Console.WriteLine();
                 Console.WriteLine();
             }
             WaitForKeyPress();
@@ -256,6 +261,7 @@ namespace QuizExamSystem.ConsoleUI.UI
                 WaitForKeyPress();
                 return;
             }
+            Console.WriteLine();
 
             foreach (var studentQuiz in this._student.StudentQuizzes)
             {
@@ -264,12 +270,12 @@ namespace QuizExamSystem.ConsoleUI.UI
                 Console.WriteLine($"Quiz Duration    : {studentQuiz.Quiz.Duration}");
                 Console.WriteLine($"Final Score      : {studentQuiz.FinalScore} / {studentQuiz.Quiz.Questions.Sum(q => q.Score)}");
                 Console.WriteLine("The Questions:");
-                for (var i =0; i < studentQuiz.Quiz.Questions.Count;i++)
+                for (var i = 0; i < studentQuiz.Quiz.Questions.Count; i++)
                 {
-                    Console.WriteLine($"Q[{i+1}]. {studentQuiz.Quiz.Questions[i].Text} ?");
+                    Console.WriteLine($"Q[{i + 1}]. {studentQuiz.Quiz.Questions[i].Text} ?");
                     Console.WriteLine($"\tyour answer was {studentQuiz.SubmittedAnswers[i]}");
                     Console.WriteLine();
-                    for (var j = 0; j < studentQuiz.Quiz.Questions[i].Answers.Count;i++)
+                    for (var j = 0; j < studentQuiz.Quiz.Questions[i].Answers.Count; i++)
                     {
                         if (studentQuiz.Quiz.Questions[i].Answers[j].IsCorrect == true)
                         {
@@ -278,7 +284,7 @@ namespace QuizExamSystem.ConsoleUI.UI
                             Console.ResetColor();
                             break;
                         }
-                            
+
                     }
                 }
                 Console.WriteLine("--------------------------------------------------");
@@ -307,37 +313,53 @@ namespace QuizExamSystem.ConsoleUI.UI
                 WaitForKeyPress();
                 return;
             }
-            Console.WriteLine();
-            var targetQuiz = GetQuiz(quizId);
-
-            var answers = new List<string>();
-            for (var i = 0; i < targetQuiz.Questions.Count; i++)
+            foreach (var quiz in _student.StudentQuizzes)
             {
-                Console.WriteLine($"\nQuestion {i + 1}: {targetQuiz.Questions[i].Text}");
-
-                for(var j = 0; i < targetQuiz.Questions[i].Answers.Count;j++)
+                if (quiz.Id == quizId)
                 {
-                    Console.Write($"[{i+1}]. {targetQuiz.Questions[i].Answers[j]}\t");
-                    if (i == targetQuiz.Questions[i].Answers.Count - 1)
-                        Console.WriteLine();
-                }
-
-                Console.Write("Enter your answer: ");
-                string answer = Console.ReadLine();
-
-                if (string.IsNullOrWhiteSpace(answer))
-                {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Invalid input! You didnt input an answer.");
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("\t[!] You did this quiz before You can't do it again");
                     Console.ResetColor();
                     WaitForKeyPress();
                     return;
                 }
-                answers.Add(answer);
             }
+            Console.WriteLine();
 
-            try
+                try
             {
+                var targetQuiz = GetQuiz(quizId);
+
+                var answers = new List<string>();
+                for (var i = 0; i < targetQuiz.Questions.Count; i++)
+                {
+                    Console.WriteLine($"\nQuestion {i + 1}: {targetQuiz.Questions[i].Text}");
+
+                    if (targetQuiz.Questions[i] is MultipleChoice multi)
+                    {
+                        for (var j = 0; j < targetQuiz.Questions[i].Answers.Count; j++)
+                        {
+                            Console.Write($"[{j + 1}]. {targetQuiz.Questions[i].Answers[j].Text}\t");
+                        }
+                    }
+                    Console.WriteLine();
+
+
+                    Console.Write("Enter your answer: ");
+                    string answer = Console.ReadLine();
+
+                    if (string.IsNullOrWhiteSpace(answer))
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("Invalid input! You didnt input an answer.");
+                        Console.ResetColor();
+                        WaitForKeyPress();
+                        return;
+                    }
+                    answers.Add(answer);
+                }
+
+
                 Console.Clear();
                 double finalScore = _studentService.SubmitQuiz(this._student, targetQuiz, answers);
                 Console.ForegroundColor = ConsoleColor.Green;

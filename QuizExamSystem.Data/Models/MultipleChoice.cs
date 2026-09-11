@@ -14,12 +14,11 @@ namespace QuizExamSystem.Data.Models
 
         public override double Evaluate(string answer)
         {
-            foreach (var item in Answers)
+            var correctAnswer = Answers.FirstOrDefault(a => a.IsCorrect == true);
+
+            if (correctAnswer != null && correctAnswer.Text.Equals(answer, StringComparison.OrdinalIgnoreCase))
             {
-                if (item.Text.Equals(answer, StringComparison.OrdinalIgnoreCase) && item.IsCorrect)
-                {
-                    return Score;
-                }
+                return Score;
             }
             return 0;
         }
