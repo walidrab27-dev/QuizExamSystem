@@ -8,6 +8,11 @@ namespace QuizExamSystem.Data.Models
 {
     public class Quiz : BaseEntity
     {
+        public Quiz()
+        {
+            
+        }
+        public int CourseId { get; set; }
         private string _name;
         private TimeSpan _duration;
         private Course _course;

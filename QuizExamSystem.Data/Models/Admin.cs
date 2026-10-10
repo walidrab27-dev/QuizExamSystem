@@ -18,5 +18,9 @@ namespace QuizExamSystem.Data.Models
         {
             this._courses = new List<Course>();
         }
+        public Admin()
+        {
+            
+        }
     }
 }

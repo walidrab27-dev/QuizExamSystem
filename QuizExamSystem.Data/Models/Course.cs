@@ -9,6 +9,10 @@ namespace QuizExamSystem.Data.Models
 {
     public class Course : BaseEntity
     {
+        public Course()
+        {
+            
+        }
         private string _name;
         private CourseCategories _category;
         private TimeSpan _duration;
@@ -49,6 +53,8 @@ namespace QuizExamSystem.Data.Models
         }
         private Admin _admin;
         private Teacher? _teacher;
+        public int? TeacherId { get; set; }
+        public int AdminId { get; set; }
         public Admin Admin
         {
             get => this._admin;

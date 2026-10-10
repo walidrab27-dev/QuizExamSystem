@@ -9,6 +9,10 @@ namespace QuizExamSystem.Data.Models
     public class Student : User
 
     {
+        public Student()
+        {
+            
+        }
         private double _grade;
         public double Grade
         {

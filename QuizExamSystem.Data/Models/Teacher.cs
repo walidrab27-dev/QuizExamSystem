@@ -9,6 +9,10 @@ namespace QuizExamSystem.Data.Models
 {
     public class Teacher : User
     {
+        public Teacher()
+        {
+            
+        }
         private TeacherTitles _title;
         public TeacherTitles Title
         {

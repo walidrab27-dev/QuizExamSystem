@@ -8,18 +8,11 @@ namespace QuizExamSystem.Data.Models
 {
     public class BaseEntity
     {
-        private static readonly Dictionary<Type, int> _counters = new();
-        public int Id { get; }
-        public DateTime CreatedAt { get; private set; }
-        public DateTime UpdatedAt { get; private set; }
+        public int Id { get; set;  }
+        public DateTime CreatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; }
         protected BaseEntity()
         {
-            var type = GetType();
-
-            if (!_counters.ContainsKey(type))
-                _counters[type] = 1;
-            Id = _counters[type]++;
-
             this.CreatedAt = DateTime.Now;
             this.UpdatedAt = DateTime.Now;
         }

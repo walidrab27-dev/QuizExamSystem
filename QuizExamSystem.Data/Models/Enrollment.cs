@@ -9,6 +9,12 @@ namespace QuizExamSystem.Data.Models
 {
     public class Enrollment : BaseEntity
     {
+        public Enrollment()
+        {
+            
+        }
+        public int StudentId { get; set; }
+        public int CourseId { get; set; }
         private Student _student;
         private Course _course;
         public Student Student

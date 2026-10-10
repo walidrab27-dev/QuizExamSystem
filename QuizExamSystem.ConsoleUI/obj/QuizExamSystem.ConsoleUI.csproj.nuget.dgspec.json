@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\QuizExamSystem.ConsoleUI.csproj": {}
+    "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\QuizExamSystem.ConsoleUI.csproj": {}
   },
   "projects": {
-    "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\QuizExamSystem.ConsoleUI.csproj": {
+    "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\QuizExamSystem.ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\QuizExamSystem.ConsoleUI.csproj",
+        "projectUniqueName": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\QuizExamSystem.ConsoleUI.csproj",
         "projectName": "QuizExamSystem.ConsoleUI",
-        "projectPath": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\QuizExamSystem.ConsoleUI.csproj",
+        "projectPath": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\QuizExamSystem.ConsoleUI.csproj",
         "packagesPath": "C:\\Users\\walid\\.nuget\\packages\\",
-        "outputPath": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\obj\\",
+        "outputPath": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.ConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -33,8 +34,8 @@
             "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\QuizExamSystem.Data.csproj": {
-                "projectPath": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\QuizExamSystem.Data.csproj"
+              "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\QuizExamSystem.Data.csproj": {
+                "projectPath": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\QuizExamSystem.Data.csproj"
               }
             }
           }
@@ -81,14 +82,14 @@
         }
       }
     },
-    "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\QuizExamSystem.Data.csproj": {
+    "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\QuizExamSystem.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\QuizExamSystem.Data.csproj",
+        "projectUniqueName": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\QuizExamSystem.Data.csproj",
         "projectName": "QuizExamSystem.Data",
-        "projectPath": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\QuizExamSystem.Data.csproj",
+        "projectPath": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\QuizExamSystem.Data.csproj",
         "packagesPath": "C:\\Users\\walid\\.nuget\\packages\\",
-        "outputPath": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\Project 2_ OOPAndSQL\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\obj\\",
+        "outputPath": "C:\\Programming\\C# Diploma CCS\\Part 7 - Projects\\CairoCodingSchool.QuizExamSystem\\QuizExamSystem.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -103,6 +104,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -128,6 +130,12 @@
         "net8.0": {
           "framework": "net8.0",
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[7.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -33,6 +33,8 @@ namespace QuizExamSystem.Data.Models
                 this._finalScore = value;
             }
         }
+        public int StudentId { get; set; }
+        public int QuizId { get; set; }
         public List<string> _submittedAnswers;
         public List<string> SubmittedAnswers
         {

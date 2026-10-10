@@ -8,6 +8,10 @@ namespace QuizExamSystem.Data.Models
 {
     public class Answer : BaseEntity
     {
+        public Answer()
+        {
+            
+        }
         private string _text;
         private bool _isCorrect;
         public string Text
@@ -25,6 +29,7 @@ namespace QuizExamSystem.Data.Models
             get => _isCorrect;  
             set => _isCorrect = value;
         }
+        public int QuestionId { get; set; }
         private Question _question;
         public Question Question
         {

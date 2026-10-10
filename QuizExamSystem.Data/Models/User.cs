@@ -77,5 +77,9 @@ namespace QuizExamSystem.Data.Models
             this.Email = email;
             this.Password = password;
         }
+        public User()
+        {
+            
+        }
     }
 }

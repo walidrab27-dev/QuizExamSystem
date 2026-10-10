@@ -8,6 +8,10 @@ namespace QuizExamSystem.Data.Models
 {
     public abstract class Question : BaseEntity
     {
+        protected Question()
+        {
+            
+        }
         private string _text;
         private double _score;
         private Quiz _quiz;
